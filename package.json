@@ -1,7 +1,7 @@
 {
-  "name": "XBOT",
+  "name": "APBOT",
   "version": "1.0.0",
-  "description": "TERMUX ONLY XBOT",
+  "description": "TERMUX ONLY APBOT",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -36,15 +36,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/affisjunianto/botwasapv2/.git"
+    "url": "git+https://github.com/AGUSZ12/APBOTV2/.git"
   },
   "keywords": [
     "k"
   ],
-  "author": "Abdul Muttaqin",
+  "author": "AGUSZ PAKEZ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/affisjunianto/botwasapv2/issues"
+    "url": "https://github.com/AGUSZ12/APBOTV2/issues"
   },
-  "homepage": "https://github.com/affisjunianto/botwasapv2/readme"
+  "homepage": "https://github.com/AGUSZ12/APBOTV2/readme"
 }
