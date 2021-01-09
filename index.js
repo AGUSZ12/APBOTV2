@@ -31,9 +31,9 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Affis Admin\n' 
-            + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' 
+            + 'FN:AP Admin\n' 
+            + 'ORG: Pengembang APBOT;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6289694354384:+6289694354384\n' 
             + 'END:VCARD' 
 prefix = '#'
 blocked = []          
@@ -46,10 +46,10 @@ const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
-    XBOT: '❉AmpibI❉', 
-    instagram: 'https://instagram.com/affis_saputro123', 
-    nomer: 'wa.me/6282334297175',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', 
+    XBOT: '❉APBOT❉', 
+    instagram: 'https://instagram.com/axfc_ap', 
+    nomer: 'wa.me/6289694354384',
+    youtube: 'https://youtube.com/channel/UCKP-E8RwFkJKhe-9uz0s9RQ', 
     whatsapp: 'Comming soon', 
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
