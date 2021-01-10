@@ -78,7 +78,7 @@ const client = new WAConnection()
 
 client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(`[ ${time} ] QR code is ready, subrek dulu yak ambipi team`)
+   console.log(`[ ${time} ] QR code is ready, tinggal scan cvk ke wa web`)
 })
 
 client.on('credentials-updated', () => {
