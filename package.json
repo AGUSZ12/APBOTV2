@@ -1,7 +1,7 @@
 {
   "name": "APBOT",
   "version": "1.0.0",
-  "description": "TERMUX ONLY APBOT",
+  "description": "TERMUX ONLY XBOT",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AGUSZ12/APBOTV2/.git"
+    "url": "git+https://github.com/AGUSZ12/APBOTV2.git"
   },
   "keywords": [
     "k"
